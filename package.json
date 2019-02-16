@@ -1,0 +1,28 @@
+{
+  "name": "environment-flag",
+  "version": "0.1.2",
+  "scripts": {
+    "webpack": "webpack --progress",
+    "development": "yarn webpack --mode development",
+    "production": "yarn webpack --mode production",
+    "watch": "yarn development --watch",
+    "sync": "yarn watch --sync"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/preset-env": "^7.0.0-beta.55",
+    "babel-loader": "^8.0.0-beta",
+    "clean-webpack-plugin": "^0.1.19",
+    "vue": "^2.5.22",
+    "vue-loader": "^15.6.2",
+    "vue-template-compiler": "^2.5.22",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "sideEffects": false,
+  "browserslist": [
+    ">0.25%",
+    "ie >= 10"
+  ],
+  "license": "MIT"
+}
